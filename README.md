@@ -17,7 +17,7 @@ react-native, react, jsx, ES6, ES Module, mockjs
     "react-router-native": "^5.1.2"
 
 ## 项目运行
-`git clone https://github.com/estherzz/react-native-app`
+`git clone https://github.com/estherzz/react-native-----news-app`
 打开VBox和Genymotion
 `cd yiyi2`
 `adb devices` 查看设备是否存在
