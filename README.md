@@ -78,7 +78,7 @@ import Router from './src/Router';
 
 AppRegistry.registerComponent('yiyi', () => Router);
 ```
-
+##### 例子：
 ```
 import { View, Text, StyleSheet  } from 'react-native'
 
