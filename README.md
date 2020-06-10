@@ -54,9 +54,20 @@ Ios: 运行 `react-native log ios`
 - 调试Dom
 `npm install -g react-devtools@3.6`
 ##### 组件
-- `View、 Text`  react-native组件
+- `ScrollView、View、 Text、Image、TouchableOpacity、FlatList`  react-native组件
+- Rout、Switch、Link、NativeRouter  react-router-native组件
 - View组件不可使用fontSize样式
 - 没有复合样式 （即 没有此形式pading ：10 10 20 30）
+
+例子：
+```
+   <FlatList
+                data={data}
+                renderItem={({ item }) => <NewsItem data={item}></NewsItem>}
+                keyExtractor={item=>''+item.id}
+            >
+            </FlatList>```
+
 ##### 渲染库
 ```
 
