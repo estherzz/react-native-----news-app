@@ -7,9 +7,13 @@ VirtualBox、Genymotion
 react-native, react, jsx, ES6, ES Module, mockjs
 
 **版本**
+
     "mockjs": "^1.1.0",
+    
     "react": "16.11.0",
+    
     "react-native": "0.62.2",
+    
     "react-router-native": "^5.1.2"
 
 ## 项目运行
