@@ -38,9 +38,13 @@ react-native, react, jsx, ES6, ES Module, mockjs
 ##### 准备：
 `npm install -g react-native-cli` 提供react-native指令
 ##### 配置环境
+
 安装python
+
 安装sdk  选择accept license选项
+
 安装java
+
 ##### 初始化项目
 `react-native init 项目名称`
 ##### 调试
