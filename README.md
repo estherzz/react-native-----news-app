@@ -66,9 +66,11 @@ Ios: 运行 `react-native log ios`
                 renderItem={({ item }) => <NewsItem data={item}></NewsItem>}
                 keyExtractor={item=>''+item.id}
             >
-            </FlatList>```
+            </FlatList>
+ ```
 
 ##### 渲染库
+
 ```
 
 import { AppRegistry } from 'react-native';
